@@ -1,0 +1,77 @@
+<!--In HTML each and every element have their own significance but some Elements will not create much 
+    impact on UI but makes code efficient and SEO friendly.
+    all semantic elements are block elements
+eg: header,footer,main,address,section,article etc..,
+
+Attributes: every element will have some properties. Those are called attributes. 
+Eg: src,alt for img element, href,target for a element
+
+every element can contain common attributes like class and id
+element can contain multiple classes or multiple elements contain same class
+element must contain only one id and it should be unique-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .all-browsers {
+              margin: 0;
+              padding: 5px;
+              background-color: lightgray;
+            }
+            
+            .all-browsers > h1, .browser {
+              margin: 10px;
+              padding: 5px;
+            }
+            
+            .browser {
+              background: white;
+            }
+            
+            .browser > h2, p {
+              margin: 4px;
+              font-size: 90%;
+            }
+            aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+            </style>
+    </head>
+<body>
+<!-- Navigation -->
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav>
+<!-- Aticle tag-->
+<article class="all-browsers">
+    <h1>Most Popular Browsers</h1>
+    <article class="browser">
+      <h2>Google Chrome</h2>
+      <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+    </article>
+    <article class="browser">
+      <h2>Mozilla Firefox</h2>
+      <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+    </article>
+    </article>
+<!-- aside-->
+<pre></pre>
+
+<aside>
+<p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+<footer>
+    <p>Author: Hege Refsnes</p>
+    <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+  </footer>
+</body>
+</html>
+

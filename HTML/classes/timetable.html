@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Time-Table></Time-Table></title>
+    <style>
+        table{
+          border:2px solid rgba(8, 1, 15, 0.895);
+          background-color: #cef6f6;
+          border-style:double;
+        
+          padding: 2% ;
+          text-align: center;
+          
+        }
+        th, td {
+          border: 1px solid blueviolet;
+         
+          border-style:groove;
+          border-width: 2px;
+          padding: 1% ;
+          text-align: center;
+        }
+        th:nth-child(even),td:nth-child(even) {
+        border: 1px solid blueviolet;
+        border-style:groove;
+         border-width: 2px;
+         padding: 1% ;
+          background-color: rgba(123, 171, 13, 0.4);
+          }
+        tr:nth-child(even) {
+         background-color: #e4c2e2;
+        }
+        </style>
+</head>
+<body>
+    <div style="text-align-last: center;"><h1> Time-Table </h1></div>
+    <table style="border:2px solid blueviolet ;color: blue; width: 100%;" > 
+       <tr>
+        <th style="color: red;">Days</th>
+       <th style="color: rgb(2, 71, 6);">Period 1</th>
+       <th style="color: rgb(2, 71, 6);">Period 2</th>
+       <th rowspan="5">Lunch Break</th>
+       <th style="color: rgb(2, 71, 6);">Period 3</th>
+       <th style="color: rgb(2, 71, 6);">Period 4</th>
+    </tr>
+       <tr >
+        <td style="color: rgb(242, 7, 7);"> Monday</td>
+        <td>Science</td>
+        <td>Math</td>
+        <td >History</td>
+        <td>Drawing</td>
+    </tr>
+    <tr>
+        <td style="color: rgb(242, 7, 7);"> Tuesday</td>
+        <td>English</td>
+        <td>Math</td>
+        <td>History</td>
+        <td>Science</td>
+    </tr>
+    <tr>
+        <td style="color: rgb(242, 7, 7);"> Wednesday</td>
+        <td>Math</td>
+        <td>Hindi</td>
+        <td>History</td>
+        <td>English</td>
+    </tr>
+    <tr>
+        <td style="color: rgb(242, 7, 7);">Thursday</td>
+        <td>English</td>
+        <td>math</td>
+        <td colspan ="2" >History</td>
+        
+    </tr>
+
+    </table>
+</body>
+</html>

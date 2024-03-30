@@ -4,10 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garima Resume</title>
+    <!--Favicon-->
+<link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+
+<!--Adding Icons embedded code to add icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css"
+integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--after adding this , add the name of the icon class to any inline HTML element.-->
+
+<!-- adding style to make more attractive-->
+<style>
+    /*tag name*/
+    h3{
+        color:rgb(5, 5, 5);
+        background-color:rgb(169, 169, 169);
+    }
+    /*classsname*/
+    .x/* classsname x*/
+    {
+        background-color: white;
+        
+    }
+    /* id*/
+    div/* id name carrer*/
+    {
+        background-color:aliceblue;
+        border:black solid 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    header{
+        background-color: rgb(165, 230, 230);
+        border: black;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 1px;
+    }
+</style>
 </head>
 <body>
-    <a href="./HTML (1).pdf"  download>click for Download</a>
-    <header>
+    <p>📑</p>
+    <a href="#header" class="x">Home</a>
+    <a href="#education" class="x">Education</a>
+    <a href="#projects" class="x">Projects</a>
+    <a href="#skills" class="x">Skills</a>
+    <a href="./HTML (1).pdf"  download class="x">click for Download</a>
+    <header id="header">
         
         <h1>Garima Sharma</h1>
         <table>
@@ -22,11 +65,13 @@
                       <br>
             </p>
          </address>
-         <p><strong>Mail:</strong><a href="mailto:garimasharma.g1@gmail.com">abc@gmail.com</a></p>
-        <p><strong>Phone:</strong><a href="tel:9999999999">9999999999</a></p>
-                </td>
-                <td style="float:right;width:42px;height:42px;">
-                    <img src="./Images/Garima.jpg" alt="image" height="100" width="100" >
+        <a href="mailto:garimasharma.g1@gmail.com"><i class="fa-solid fa-envelope"></i></a>&nbsp;
+        <a href="tel:9999999999"><i class="fa-solid fa-phone"></i></a>&nbsp;
+        <a href="https://github.com/GarimaCoder" target="_blank"><i class="fa-brands fa-github"></i></a>&nbsp;
+        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>&nbsp;      </td>
+               
+        <td style="float:right;width:42px;height:42px; padding-left: 900px;">
+                    <img src="./Images/Garima.jpg" alt="image" height="100" width="100"  >
                 </td>
             </tr>
         </table>
@@ -37,9 +82,10 @@
             <p>Highly motivated Front-End Developer with strong fundamentals in HTML, CSS, JavaScript ,Java and Oracle seeking to contribute to a
             collaborative team environment. Eager to learn new frameworks and technologies (React, Angular) to build user-centric
             and responsive web applications.</p>
-        </div><h3>Educational Background:</h3></main>
+        </div></main>
         <div id="education">
-            <table border="1">
+            <h3>Educational Background:</h3>
+            <table border="1" width="100%">
                 <tr>
                     <th>sno</th>
                     <th>Qualification</th>
@@ -122,7 +168,7 @@
 
     </main>
     <footer>
-        This site belongs to me:<a href="mailto:garimasharma.g1@gmail.com">garimasharma.g1@gmail.com</a>
+        This site belongs to me &copy; 2024 write us to<a href="mailto:garimasharma.g1@gmail.com">garimasharma.g1@gmail.com</a>
     </footer>
     
     
