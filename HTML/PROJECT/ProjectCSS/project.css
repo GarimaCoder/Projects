@@ -1,0 +1,35 @@
+#bd{
+    background-color:rgb(231, 230, 228);
+    background-repeat: no-repeat;
+    height:100vh;
+    color:rgb(156, 26, 26);
+    padding: 30px;
+}
+.divv
+{
+    background:radial-gradient(rgb(231, 230, 228),rgb(156, 26, 26));
+    background-repeat: no-repeat;
+    height: 20px;;
+    color: white ;
+    font-weight: 400;
+    padding: 10px;
+}
+div{
+    font-size: 22px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+header {
+    background-color:rgb(231, 230, 228);
+    /*background-image:url("../Projectimages/MontClair.jpg");*/
+    background-size:inherit;
+
+
+ 
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 1px;
+}
+
+
